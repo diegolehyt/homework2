@@ -5,42 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
-        .color{
-            background-color: grey;
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: lightgrey;
+        }
+        h3{
+          color:rgb(41, 175, 164) ;
+        }
+        /* NavBar*/
+        .topnav {
+          position: relative;  
+          overflow: hidden;
+          background-color: whitesmoke;
+          height: 75px;
+        }
+        
+        .topnav a {
+          float: left;
+          color: rgba(41, 38, 38, 0.568);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+          height: 75px;
+        }
+        
+        .topnav a.active {
+          position: absolute;
+          background-color: rgb(41, 175, 164);
+          color: white;
+          margin-left: 50px;
+          height: 75px;
+          padding-top: 20px;
+        }
+        
+        .topnav-right {
+          float: right;
+        }
+        .topnav-right a {
+          padding-top: 25px;
+          
+        }
+        /*footer*/
+        footer{
+            background-color: rgb(88, 86, 86);
+            margin: 0px;
+            height: 100px;
+        }
+        .text-center{
+            padding-top: 45px;
+            color: white;
+        }
+        .thinline{
+          height: 5px;
+          background-color:rgb(41, 175, 164) ;
+        }
+        /*main block*/
+        .col-8{
+          background-color: white;
+          margin-top: 30px;
+          margin-left: 40px;
+          padding: 20px 40px;
+        }
+        .btn{
+          background-color: rgb(41, 175, 164);
+          border-color: rgb(41, 175, 164);
         }
        
     </style>
     <title>Contact</title>
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="topnav">
+      <a class="active" href="#home">Diego Lehyt</a>
+      
+      <div class="topnav-right">
+        <a href="index.html">About</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+  </nav>
+  
 </header>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-8">
                 <h3>Contacts</h3>
+                <hr>
                 <form>
                     <div class="form-group">
                         <label for="formGroupExampleInput">Example label</label>
@@ -71,11 +129,11 @@
 <br>
 <br>
 <br>
-<footer>
-    <div class="color">
-      <p>©Copyright</p>
+<div class="thinline">
 
-    </div>
+</div>
+<footer>
+  <p class="text-center">©Copyright</p>
 
 </footer>
 </html>
