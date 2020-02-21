@@ -85,16 +85,18 @@
         /*Media Query*/
         /*980*/
         @media only screen and (max-width: 980px) {
-          .container-lg-8{
+          .container-lg{
             position: sticky;
             margin-left: 23px;
+            width: 600px;
             
           }
           
         /*768*/
         @media only screen and (max-width: 768px) {
           /*Quary body 768*/
-          .container-md{
+          .container{
+            width: 800px;
             position: sticky;
             margin-left: -6px;
             
@@ -128,10 +130,57 @@
             padding-right: 10px;
 
           }
+          .topnav a:hover{
+            height: 100px;
+          }
 
         }
         /*640*/
         @media only screen and (max-width: 640px) {
+          /*Quary navbar 640 */
+          header{
+            height: 100px;
+          }
+          nav{
+
+          }
+          /*top Nav*/
+          header{
+            height: 200px;
+          }
+          .topnav a.active {
+            height: 100px;
+            width: 100%;
+            font-size: xx-large;
+            padding-top: 30px;
+            margin-left: 0px;
+          
+          
+          }
+          .topnav {
+            height: 180px;
+          }
+          /*Bothom Bar*/
+          .topnav-right a {
+            height: 200px;
+            padding-top: 124px;
+            font-size: large;
+          }
+          .topnav-right {
+            height: 200px;
+            padding-right: 165px;
+
+          }
+          .topnav a:hover {
+          
+            height: 185px;
+          }
+          .topnav .active:hover {
+            
+            height: 100px;
+
+          
+          }
           /*Quary body 640*/
           .container-sm{
             max-width: 592px;
