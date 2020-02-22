@@ -1,7 +1,8 @@
 # homework2
 Name
 
-"Responsive Portafolio".
+"Responsive Portfolio".
+
 
 instruction
 
@@ -9,7 +10,7 @@ Open URL at the end of this ReadMe file, click on "inspect" and try the diferent
 
 Description
 
-This is a Responsive Portafolio, which can support the layout of: CellPhones "640px", Tablets "768px", and Laptops "980px"
+This is a Responsive Portfolio, which can support the layout of: CellPhones "640px", Tablets "768px", and Laptops "980px"
 
 
 Details
